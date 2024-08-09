@@ -1,0 +1,406 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #dfb8b8;
+}
+
+header {
+    background: #161616;
+    color: #eff0f0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+header h1 {
+    text-align: left; 
+    margin: 0;
+}
+
+nav {
+    margin-top: 0;
+}
+
+nav a {
+    color: #fff;
+
+    text-decoration: none;
+    display: inline-block; 
+    padding: 10px;
+    /* transition: background-color 0.3s; */
+}
+
+nav a:hover {
+    background-color: #a2c0e0; 
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+
+#about {
+    padding: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.about-text {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.about-text p {
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 0;
+    text-align: left;
+}
+
+/* .about-image {
+     flex: 1;
+    display: flex; 
+    justify-content: center;
+} */
+
+.about-image img {
+    border-radius: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    text-align: left;
+    }
+    
+
+
+
+
+#projects {
+    padding: 0px;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+}
+
+#projects h1 {
+    text-align: center;
+    font-style: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* overflow: hidden; */
+    transition: transform 0.2s;
+    width: 350px; 
+    height: 550px; 
+    display: flex;
+    flex-direction:column;
+    
+
+}
+.project-card:hover{
+    border:2px solid #000000;
+   
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    height: 35vh; 
+    object-fit: cover;
+    
+}
+
+.project-info {
+    padding: 17px;
+    /* flex: 1;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-info h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 1rem;
+    color: #3e3e3d;
+    /* flex: 1;  */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background: #8bb3df;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    /* transition: background 0.3s;  */
+     align-self: flex-start;
+}
+
+.btn:hover {
+    background: #c034a4;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+#skills {
+    
+    padding: 40px 20px;
+    text-align: center; 
+    border-radius: 8px; 
+    margin: 20px auto; 
+    /* max-width: 800px;  */
+}
+
+#skills h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 2.5rem; 
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+    color: #201f1f; 
+}
+
+.skills-container {
+    display: flex; 
+    justify-content: center; 
+    color: #161616;
+    gap: 20px; 
+}
+
+.skill-card {
+    background-color: #64ced3; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    flex: none; 
+    width: 150px; 
+    text-align: center; 
+    transition: transform 0.3s; 
+}
+
+
+.skill-card:hover {
+    transform: scale(1.05); 
+   
+}
+
+
+
+
+   
+
+#certifications {
+    padding: 20px;
+    max-width: 1200px;
+    /* margin: 0 auto; */
+}
+
+#certifications h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #161616;
+}
+
+.certifications-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* border: 2px solid red;*/
+    margin-left: 40%; 
+    justify-content:center;
+    align-items: center;
+}
+
+.certification-card {
+    background: #d3dea1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 300px; 
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.certification-card:hover {
+    transform: scale(1.05);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.certification-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.certification-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.certification-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #a6aeb7;
+    color: black;
+}
+
+#contact {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+
+.contact-form {
+    background: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* flex: 1; */
+    padding-bottom: -30%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+  
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border:2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #1d1818;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #dadfe5;
+    color: #161616;
+}
+
+
+
+section h2 {
+    margin-top: 0;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+/* label {
+    display: block;
+    margin-bottom: 0.5rem;
+} */
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #1d45b2;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+
